@@ -1,4 +1,6 @@
-# ARDUINO-MovementDetector
+# ARDUINO-MovementDetector.
+
+Licenced under GPL v.3
 
 The arduino movement detector is based on ultrasounds to detect the presence of objects in a range and beeps with a frequency proportional to the distance to the detected object. 
 
