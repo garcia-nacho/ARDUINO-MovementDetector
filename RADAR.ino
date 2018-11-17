@@ -1,4 +1,6 @@
 
+/* Nacho garcia garcia.nacho@gmail.com*/
+
 #include <Arduino.h>
 #include "TM1637Display.h"
 #include "pitch.h"
@@ -26,7 +28,7 @@ void loop() {
   digitalWrite(TRIG,LOW); 
   delayMicroseconds(5);
   
-  digitalWrite(TRIG, HIGH); /* envío del pulso ultrasónico*/
+  digitalWrite(TRIG, HIGH); /* ultrasound pulse send*/
   delayMicroseconds(10);
   
   time=pulseIn(ECHO, HIGH); 
